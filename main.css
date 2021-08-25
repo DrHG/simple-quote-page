@@ -1,0 +1,43 @@
+/*--General styles--*/
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+}
+/*--Header styles--*/
+
+.cover {
+  background: url('assets/freedom.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.wrapper {
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.headline {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  
+}
+.tagline {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+}
+@media screen and (min-width: 1224px) {
+
+  .headline {
+    font-size: 2.5rem;
+  }
+}
